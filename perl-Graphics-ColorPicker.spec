@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Graphics
-%define	pnam	ColorPicker
+%define		pdir	Graphics
+%define		pnam	ColorPicker
 Summary:	Graphics::ColorPicker - allows web applications selection of hex color numbers
 Summary(pl):	Graphics::ColorPicker - wybór szesnastkowych kodów kolorów dla aplikacji WWW
 Name:		perl-Graphics-ColorPicker
