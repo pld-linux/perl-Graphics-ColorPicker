@@ -6,7 +6,7 @@
 %define		pdir	Graphics
 %define		pnam	ColorPicker
 Summary:	Graphics::ColorPicker - allows web applications selection of hex color numbers
-Summary(pl):	Graphics::ColorPicker - wybór szesnastkowych kodów kolorów dla aplikacji WWW
+Summary(pl.UTF-8):   Graphics::ColorPicker - wybÃ³r szesnastkowych kodÃ³w kolorÃ³w dla aplikacji WWW
 Name:		perl-Graphics-ColorPicker
 Version:	0.10
 Release:	1
@@ -30,12 +30,12 @@ javascript from your web page and will set the HEX value in a variable
 in the calling page and scope. The selector page can be created for 24
 million or 216 web safe colors only.
 
-%description -l pl
-Ten modu³ generuje zbiór palet do wyboru szesnastkowego lub
-dziesiêtnego numeru koloru przez przegl±darkê WWW. make_page() mo¿e
-byæ wywo³ane z poziomu JavaScriptu na stronie i ustawi warto¶æ
-szesnastkow± w zmiennej w wywo³ywanej stronie. Strona wyboru koloru
-mo¿e byæ utworzona dla 24 milionów kolorów lub tylko 216 kolorów
+%description -l pl.UTF-8
+Ten moduÅ‚ generuje zbiÃ³r palet do wyboru szesnastkowego lub
+dziesiÄ™tnego numeru koloru przez przeglÄ…darkÄ™ WWW. make_page() moÅ¼e
+byÄ‡ wywoÅ‚ane z poziomu JavaScriptu na stronie i ustawi wartoÅ›Ä‡
+szesnastkowÄ… w zmiennej w wywoÅ‚ywanej stronie. Strona wyboru koloru
+moÅ¼e byÄ‡ utworzona dla 24 milionÃ³w kolorÃ³w lub tylko 216 kolorÃ³w
 "bezpiecznych dla WWW".
 
 %prep
