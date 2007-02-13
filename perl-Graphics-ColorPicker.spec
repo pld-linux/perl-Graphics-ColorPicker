@@ -6,7 +6,7 @@
 %define		pdir	Graphics
 %define		pnam	ColorPicker
 Summary:	Graphics::ColorPicker - allows web applications selection of hex color numbers
-Summary(pl.UTF-8):   Graphics::ColorPicker - wybór szesnastkowych kodów kolorów dla aplikacji WWW
+Summary(pl.UTF-8):	Graphics::ColorPicker - wybór szesnastkowych kodów kolorów dla aplikacji WWW
 Name:		perl-Graphics-ColorPicker
 Version:	0.10
 Release:	1
