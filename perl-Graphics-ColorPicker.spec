@@ -8,12 +8,12 @@
 Summary:	Graphics::ColorPicker - allows web applications selection of hex color numbers
 Summary(pl.UTF-8):	Graphics::ColorPicker - wybór szesnastkowych kodów kolorów dla aplikacji WWW
 Name:		perl-Graphics-ColorPicker
-Version:	0.10
-Release:	2
+Version:	0.11
+Release:	1
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	9d7de7b96fe326df68c64e768b067cc7
+# Source0-md5:	369db5d11615327072471f4c9c6ca347
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
