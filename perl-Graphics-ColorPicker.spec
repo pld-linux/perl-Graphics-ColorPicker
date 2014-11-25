@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Graphics
 %define		pnam	ColorPicker
+%include	/usr/lib/rpm/macros.perl
 Summary:	Graphics::ColorPicker - allows web applications selection of hex color numbers
 Summary(pl.UTF-8):	Graphics::ColorPicker - wybór szesnastkowych kodów kolorów dla aplikacji WWW
 Name:		perl-Graphics-ColorPicker
@@ -14,6 +14,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	22130749d48845a8dcb13fdc7a6a5a70
+URL:		http://search.cpan.org/dist/Graphics-ColorPicker/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -58,7 +59,7 @@ install -d $RPM_BUILD_ROOT{%{cgidir},%{imgdir}}
 
 sed -e "/^use lib/d;s@'./'@'%{imgreldir}/'@" scripts/p_gen.cgi \
 	> $RPM_BUILD_ROOT%{cgidir}/p_gen.cgi
-install images/* $RPM_BUILD_ROOT%{imgdir}
+cp -p images/* $RPM_BUILD_ROOT%{imgdir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
